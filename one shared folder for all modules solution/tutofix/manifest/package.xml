@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>BookHandler</members>
+        <members>BookHandlerTest</members>
+        <members>GameHandler</members>
+        <members>GameHandlerTest</members>
+        <members>HelloWorld</members>
+        <members>HiMessage</members>
+        <members>MorningSalesforceMsg</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>Book__c</members>
+        <members>Game__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Book__c-Book Layout</members>
+        <members>Game__c-Game Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>BookTrigger</members>
+        <members>GameTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <types>
+        <members>PlayingWithSfdx</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+    <version>46.0</version>
+</Package>

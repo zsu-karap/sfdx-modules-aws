@@ -1,0 +1,3 @@
+<aura:component >
+	Hello World from module (all-modules solution)!
+</aura:component>

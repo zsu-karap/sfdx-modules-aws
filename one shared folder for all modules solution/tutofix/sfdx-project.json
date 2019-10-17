@@ -1,0 +1,27 @@
+{
+  "packageDirectories": [
+    {
+      "path": "all-modules/force-app",
+      "default": true
+    },
+    {
+      "path": "all-modules/book-module",
+      "default": false
+    },
+    {
+      "path": "all-modules/game-module",
+      "default": false
+    },
+    {
+      "path": "all-modules/greetings-module",
+      "default": false
+    },
+    {
+      "path": "all-modules/playingWithSfdx-aura-module",
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "47.0"
+}

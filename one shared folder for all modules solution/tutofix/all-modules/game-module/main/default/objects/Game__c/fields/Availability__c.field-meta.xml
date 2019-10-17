@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Availability__c</fullName>
+    <externalId>false</externalId>
+    <label>Availability</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In city storage</fullName>
+                <default>true</default>
+                <label>In city storage</label>
+            </value>
+            <value>
+                <fullName>In store</fullName>
+                <default>false</default>
+                <label>In store</label>
+            </value>
+            <value>
+                <fullName>Out of stock</fullName>
+                <default>false</default>
+                <label>Out of stock</label>
+            </value>
+            <value>
+                <fullName>Outside city storage</fullName>
+                <default>false</default>
+                <label>Outside city storage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
